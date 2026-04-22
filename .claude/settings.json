@@ -1,0 +1,9 @@
+{
+  "plugins": {
+    "superpowers": {
+      "source": "claude-plugins-official",
+      "version": "5.0.7",
+      "enabled": true
+    }
+  }
+}
