@@ -1,0 +1,62 @@
+# Display settings
+WINDOW_WIDTH = 800
+WINDOW_HEIGHT = 600
+GRID_SIZE = 20  # pixels per grid cell
+FPS = 60
+
+# Colors (RGB)
+COLOR_BLACK = (0, 0, 0)
+COLOR_WHITE = (255, 255, 255)
+COLOR_RED = (255, 50, 50)
+COLOR_BLUE = (50, 50, 255)
+COLOR_GREEN = (50, 255, 50)
+COLOR_YELLOW = (255, 255, 0)
+COLOR_ORANGE = (255, 165, 0)
+COLOR_GRAY = (128, 128, 128)
+COLOR_DARK_GRAY = (64, 64, 64)
+
+# Snake settings
+SNAKE_BASE_SPEED = 10  # grid cells per second
+SNAKE_MAX_SPEED = 25  # maximum speed with power-ups
+SNAKE_INITIAL_LENGTH = 3
+
+# Food settings
+FOOD_REGULAR_POINTS = 10
+FOOD_BONUS_POINTS = 50
+FOOD_BONUS_SPAWN_CHANCE = 0.1  # 10% chance
+
+# Power-up settings
+POWERUP_DURATION = 5.0  # seconds
+POWERUP_SPEED_MULTIPLIER = 1.5
+POWERUP_SCORE_MULTIPLIER = 2.0
+
+# Obstacle settings
+OBSTACLE_SPAWN_RATE_INITIAL = 0.02  # per second at difficulty 0
+OBSTACLE_SPAWN_RATE_MAX = 0.1
+STATIC_WALL_PROBABILITY = 0.4
+MOVING_WALL_PROBABILITY = 0.3
+SPIKE_PROBABILITY = 0.2
+SPIRAL_PROBABILITY = 0.1
+
+# Difficulty settings
+ARCADE_DIFFICULTY_INCREASE_INTERVAL = 7.0  # seconds
+ARCADE_DIFFICULTY_INCREASE_AMOUNT = 0.1
+ARCADE_SPEED_INCREASE_PER_DIFFICULTY = 0.5  # grid cells per second
+
+TIME_ATTACK_INITIAL_TIME = 120  # seconds
+TIME_ATTACK_DIFFICULTY_SPIKE_INTERVAL = 10.0  # seconds
+
+# Game state
+LEADERBOARD_SIZE = 5
+DATA_FILE = "data/high_scores.json"
+
+# Game modes
+MODE_ARCADE = "arcade"
+MODE_TIME_ATTACK = "time_attack"
+MODE_PUZZLE = "puzzle"
+
+# Power-up types
+POWERUP_SPEED_BOOST = "speed_boost"
+POWERUP_SHIELD = "shield"
+POWERUP_SCORE_MULTIPLIER = "score_multiplier"
+POWERUP_FREEZE = "freeze"

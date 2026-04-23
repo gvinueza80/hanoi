@@ -1,0 +1,9 @@
+{
+  "name": "Level 2 - Walls",
+  "food_count": 7,
+  "obstacles": [
+    {"type": "static_wall", "x": 10, "y": 10},
+    {"type": "static_wall", "x": 11, "y": 10},
+    {"type": "static_wall", "x": 12, "y": 10}
+  ]
+}
